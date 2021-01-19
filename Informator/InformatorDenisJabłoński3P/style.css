@@ -1,0 +1,103 @@
+* {
+	top:0;
+	padding:0;
+	margin:0;
+}
+
+#menu {
+	width:100%;
+	height:100px;
+	background-color:RGB(33,10,64);
+	text-align:center;
+	z-index:1;
+	position:fixed;
+	font-size:2em;
+}
+
+
+#menu ul {
+	list-style-type:none;
+	padding:10px;
+	line-height:100px;
+	font-weight:bold;
+	font-family:monospace;
+}
+
+#menu ul li {
+	display: inline;
+}
+
+#menu a {
+	text-decoration:none;
+	color:white;
+}
+
+#menu a:hover {
+	color:  #eb0165;
+}
+
+#naglowek {
+	margin-top:100px;
+	height:350px;
+	background-color: RGB(1,143,235);
+}
+
+#naglowek h1 {
+	text-align:center;
+	color:white;
+	font-size:100px;
+	padding-top:100px;
+	text-shadow: black 5px 5px 5px;
+}
+
+#tresc {
+	width:100%;
+	background-color:RGB(244,224,153);
+}
+
+#tresc div {
+	padding-left:10%;
+	padding-right:10%;
+	padding-top:110px;
+}
+
+#tresc h2 {
+	padding-bottom:10px;
+}
+
+#artykul p {
+	column-count:2;
+	column-gap:20px;
+	column-rule:2px dotted black;
+}
+
+#galeria img{
+	padding:10px;
+	transition: 0.8s ease-out, padding 0.01s;
+}
+
+#galeria img:hover{
+	transform: scale(1.05);
+	filter: invert(1);
+}
+
+#bazadanych {
+	
+}
+
+#bazadanych img {
+	float:default;
+}
+
+#stopka {
+	width:100%;
+	height:100%;
+	background-color:RGB(33,10,64);
+}
+
+#stopka h2 {
+	text-align:center;
+	line-height:100px;
+	color:white;
+	font-family:monospace;
+}
